@@ -1,0 +1,26 @@
+.statistics {
+  font-size: 30px;
+}
+
+.rating {
+  padding-left: 5px;
+}
+
+.goodStatistics::marker {
+  content: '🤩';
+}
+.neutralStatistics::marker {
+  content: '😐';
+}
+.badStatistics::marker {
+  content: '🙁';
+}
+
+.totalStatistics {
+  color: red;
+  font-weight: 600;
+}
+.positiveStatistics {
+  color: rgb(2, 119, 2);
+  font-weight: 600;
+}
